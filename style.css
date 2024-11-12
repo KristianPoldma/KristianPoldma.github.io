@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.workspace {
+    background-color: red;
+}
+
+.play-stop {
+    flex-grow: 1;
+    background-color: lightgray;
+    margin: 1rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+
+.dailystats {
+    width: 100%;
+    font-size: 1.3rem;
+    background-color: green;
+    border: none;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
