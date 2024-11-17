@@ -15,6 +15,8 @@ let pauseInterval;
 let pausedTime = 0;
 let pausedRunning = false;
 
+
+//taimer ju duubeldab, küllap saaks ühe funktsiooniga pausi ja tööd lugeda
 function start() {
     if(!timerRunning) {
         timerInterval = setInterval(() => {
